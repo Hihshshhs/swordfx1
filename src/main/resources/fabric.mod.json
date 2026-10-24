@@ -1,0 +1,22 @@
+{
+	"schemaVersion": 1,
+	"id": "swordfx",
+	"version": "${version}",
+	"name": "SwordFX",
+	"description": "Visual client features: sword swing animations, tilt, jump rings, ping/FPS bar, target health, CPS, coords and armor HUD.",
+	"authors": ["You"],
+	"license": "MIT",
+	"environment": "client",
+	"entrypoints": {
+		"client": ["com.swordfx.SwordFxClient"]
+	},
+	"mixins": [
+		{ "config": "swordfx.mixins.json", "environment": "client" }
+	],
+	"depends": {
+		"fabricloader": ">=0.19.0",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

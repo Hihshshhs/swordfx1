@@ -1,0 +1,11 @@
+{
+	"required": false,
+	"package": "com.swordfx.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"HandRendererMixin"
+	],
+	"injectors": {
+		"defaultRequire": 0
+	}
+}
